@@ -6,11 +6,7 @@
 			<Field type="menu" id="cars">
 				<Label>Car:</Label>
 				<!-- see http://wiki.indigodomo.com/doku.php?id=indigo_5_documentation:plugin_guide#dynamic_lists -->
-				<List>
-					<Option value="car1">Car 1</Option>
-					<Option value="car2">Car 2</Option>
-					<Option value="car3">Car 3</Option>
-				</List>
+				<List class="self" filter="" method="carListGenerator" />
 			</Field>
 		</ConfigUI>
 	</Device>
